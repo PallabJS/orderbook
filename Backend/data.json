@@ -1,0 +1,48 @@
+{
+    "buys": [
+        { 
+            "stock": 100, 
+            "price": 10.5
+        },
+        { 
+            "stock": 300, 
+            "price": 11.5
+        },
+        { 
+            "stock": 200, 
+            "price": 12.1
+        },
+        { 
+            "stock": 500, 
+            "price": 12.5
+        },
+        { 
+            "stock": 400, 
+            "price": 12.8
+        }
+    ],
+    "sells":
+    [
+        { 
+            "stock": 100, 
+            "price": 20
+        }
+        ,
+        { 
+            "stock": 500, 
+            "price": 22.1
+        },
+        { 
+            "stock": 200, 
+            "price": 25.5
+        },
+        { 
+            "stock": 400, 
+            "price": 26.4
+        },
+        { 
+            "stock": 300, 
+            "price": 30
+        }
+    ]
+}
