@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+
+import Clock from './components/Clock';
+import Orderbook from './components/Orderbook';
+import Placeorder from './components/Placeorder';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app_container">
+
+        <div className="app_header">
+          <div>
+            <Clock />
+          </div>
+          <h2> Order Book </h2>
+        </div>
+
+        <Placeorder />
+
+        <div className="app_main">
+          <Orderbook />
+        </div>
+
+      </div>
     </div>
   );
 }

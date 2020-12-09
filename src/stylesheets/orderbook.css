@@ -1,0 +1,53 @@
+.orderbook_container {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    min-height: 350px;
+}
+
+.orderbuy,
+.ordersell {
+    flex: 0.5;
+    padding: 10px;
+}
+.orderheader {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.orderbuyheader {
+    display: flex;
+}
+.orderbuyheader > h4 {
+    flex: 0.5;
+    text-align: center;
+}
+.lineseparator {
+    margin: 10px 0;
+}
+.ordercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0;
+}
+.bestoption {
+    color: white !important;
+    background-color: rgb(9, 185, 9);
+    border-radius: 5px;
+}
+
+.orderstock,
+.orderprice {
+    flex: 0.5;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-family: "Gill Sans MT";
+    font-size: 1.2rem;
+}

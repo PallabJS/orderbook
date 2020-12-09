@@ -1,0 +1,48 @@
+.placeorder_container {
+    color: white;
+    background-color: black;
+}
+.placeorder_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 5px;
+}
+label {
+    display: inline-block;
+    margin: 5px;
+}
+
+.placeorder_form > div {
+    flex: 0.3;
+    margin: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 2px silver solid;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.placeorder_form input[type="number"] {
+    font-size: 12pt;
+    width: 120px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.placeorder_container input[type="button"] {
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.placeorder_container input[type="button"]:active {
+    color: white;
+    background-color: rgb(41, 212, 41);
+}
